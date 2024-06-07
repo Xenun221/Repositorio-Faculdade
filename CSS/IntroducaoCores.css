@@ -1,0 +1,24 @@
+h2 {
+    color: rgba(241, 37, 37, 0.541);
+    /*0 Sendo o mais Fraco
+    255 Sendo a cor mais Forte
+
+    RGBA e a masma coisa que eo RGB so que com um sobreamento na cor
+    */
+}
+
+/*Alpha*/
+h2{
+    color: #3939e6b4;
+}
+
+/*HSL*/
+/* HSL baseado em uma roda de cores, de acordo com que voce vai colocando vai mudando o valor das cores */
+h2{
+    color: hsla(157, 67%, 74%, 0.185);
+}
+
+/*HWB*/
+h2 {
+    color: hwb(0 22% 22% / 0.747)
+}
