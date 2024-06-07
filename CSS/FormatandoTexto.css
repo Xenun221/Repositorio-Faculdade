@@ -1,0 +1,43 @@
+body{
+    /* Inserindo fontes do Google Fonts */
+    font-family: "Tiny5", sans-serif;
+}
+
+h1{
+    /* Estilizando Fonte */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    /* A segunda fonte e acionada caso não tenha a primeira fonte essa consulta de fontes e chamada de FALLBACK */
+
+    /* Alterando o tamanho da fonte */
+    font-size: 35px;
+
+    /* Alinhando o texto */
+    text-align: center;
+}
+
+p{
+    /* Alterando o tamanho da fonte */
+    font-size: 20px;
+
+    /* Alterando a espessura da fonte(Negrito) */
+    font-weight: bolder;
+
+    /* Alterando o estilo da fonte */
+    font-style: italic;
+
+    /* Alinhamento do texto */
+    text-align: justify;
+
+    /* Decoração do Texto(Sublinhado Etc) */
+    text-decoration: underline;
+
+    /* Deixar as todas as palavras em Maiusculas ou Minusculas */
+    text-transform: uppercase;
+
+    /* Espaçamento entre letras e palavras */
+    /* word-spacing: 5px; /*Entre Letras* */
+    letter-spacing: 2px;
+
+    /* Altura da linha */
+    line-height: 28px;
+}
