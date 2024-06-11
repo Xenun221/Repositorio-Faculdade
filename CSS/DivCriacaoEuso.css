@@ -1,0 +1,23 @@
+body{
+    font-family: "Lumanosimo", cursive;
+}
+
+div{
+    /* Largura da Div */
+    width: 50%;
+    height: 200px;
+    /* AutO: Isso representa que ela sempre vai ter largura automatica */
+    text-align: justify;
+
+    /* Colocando cor de fundo */
+    background-color: rgb(144, 238, 241);
+
+    /* Não deixa o conteudo estourar */
+    overflow: auto;
+    /* Auto = Faz uma barra
+    Visible = Padrão
+    Jidden = se esourar ocuta o estouro o
+    Scroll = Cria barra vertical e horizontal
+    
+    */
+}
