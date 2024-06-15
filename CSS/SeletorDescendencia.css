@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Formatando somente os P que estão dentro da DIV ignorando os outros 2 que estão fora */
+div p {
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid darkorchid;
+}
