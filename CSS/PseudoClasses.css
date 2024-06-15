@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+
+li{
+    margin: 20px 0;
+}
+
+/* Passa o mouse em cima ele aplicara vai aplicar a estilização*/
+li:hover{
+    width: 300px;
+    height: 50px;
+    background-color: brown;
+    color: white;
+}
+.BoxtoBox{
+    width: 150px;
+    height: 50px;
+    border-radius: 7px;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Pegar um conjunto de filhos que estão dentro de um conteiner e vai alterar somento o valor que eu pedir*/
+/* .BoxtoBox:nth-child(3){
+    background-color: brown;
+    color: white;
+} */
+
+/* Fazer esse elemento pegar somente os impares e pares EVEN e Impares(odd)
+.BoxtoBox:nth-child(even){
+    background-color: darkcyan;
+    color: white;
+} */
+
+/* Formatando o primeiro e o ultimo
+.BoxtoBox:first-child{
+    background-color: blue;
+    color: white;
+}
+
+/* Formatando o ultimo filho */
+/* .BoxtoBox:last-child{
+    background-color: aqua;
+    color: red;
+} */ 
+
+
+/* Quero todos os elementos que não possuem tal Elemento especie de "Pequeno IF"
+.BoxtoBox:not(.no-color){
+    background-color: blueviolet;
+    color: white;
+} */
+
+
+
+/* Aplicar uma formatação em determinado elementos, vai verificar se tem o elemento e depois vai aplicar o CSS na página
+:is(.bg-color, h2, h3, h4){ /* Se estiver usando o WHEREe ele vai perder especificidade*/
+    /* background-color: blueviolet;
+    color: white;
+} */
+/* Cancela o H4 e vai aplciar o que esta no IS. O is ganha a especificiade */
+/* h4{
+    background-color: brown;
+}  */
+
+
+/* Verifica se existe esse elemento dentro do container HAS e aplica a estilização */
+.BoxtoBox:has(p){
+    background-color: blue;
+
+}
