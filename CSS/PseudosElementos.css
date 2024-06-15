@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Elemento que vai ser aplciado automaticamente na primeira linha
+p::first-line{
+    background-color: blueviolet;
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+} */
+
+/* Baseado na seleção, selecionar o texto e deixar diferente (tem que selecionar com mouse*/
+p::selection{
+    background-color: darkgreen;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.box{
+    width: 400px;
+    height: 250px;
+    background-color: gainsboro;
+    border: 2px solid blue;
+    text-align: center;
+    padding: 20px;
+}
+/* Inserir um novo conteudo(Before e After) */
+.box::before{
+    /* Vai colocar o Conteudo antes do conteudo*/
+    content: "Conteudo desejado";
+    background-color: blue;
+    padding: 10px;
+}
+
+.box::after{
+    /* Inserindo o aquivo depois do conteudo */
+    content: "Conteudo Desejado";
+    background-color: red;
+    padding: 10px;
+}
