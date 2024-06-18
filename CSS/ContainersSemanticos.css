@@ -1,0 +1,15 @@
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #999;
+}
+header, main, section{
+    width: 80%;
+    height: 30rem;
+    border: 1px solid #999;
+    padding: 2rem;
+    margin: 2rem auto;
+}
