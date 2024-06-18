@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%rem;
+}
+body{
+    font-size: 1.6rem;
+}
+
+.container{
+    height: 100vh;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 100px);
+    /* 3 linhas e 3 colunas */
+
+    /* Aplicando os grid */
+
+    /* Represneta o espaçamento entre as colunas
+    column-gap: 150px;
+     Representa o espaçamento entre linhas 
+    row-gap: 100px; */
+
+    /* ShortHand */
+    gap: 20px;
+
+    /* Alinhamento Horizontal EIXO X. ALINHANDO ESPÇOS */
+    justify-content: start;
+    justify-content: end;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: space-between;
+
+    /* Alinhamento Vertifcal EIXO Y */
+    align-content: start;
+    align-content: end;
+    align-content: center;
+
+    /* Alinhamento dos ITENS  HORIZONTAL*/
+    justify-items: start;
+    justify-items: end;
+    justify-items: stretch;
+    justify-items: center;
+
+    /* Alinhando verticalmente */
+    align-items: start;
+    align-items: end;
+    align-items: center;
+
+    
+}
+.out{
+/* Tirar um elemento do padrão */
+
+    /* Horizontal */
+    justify-self: self-end;
+
+    /* Vertical */
+    align-self: self-end;
+}
+
+.box{
+    border: 1px solid #333;
+    background-color: #999;
+    min-height: 5rem;
+}
