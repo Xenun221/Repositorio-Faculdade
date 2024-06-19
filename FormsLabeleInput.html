@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Label e Input</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+    <!--  -->
+    <form id="dados" name="dados" method="get" action="">
+    <fieldset>
+        <legend>Campo de Texto</legend>
+        <!-- Tag Label e importante quando queremos passar usabilidade e acessibilidade pois atravez dele conseguimos entender o que tem que fazer. For e utilizado para juntar dois elementos.SEMPRE BOM COLOCAR UM NAME  NO INPUT -->
+        <label for="usuario">Usuario: </label>
+        <input type="text" id="usuario" name="usuario">
+    </fieldset>
+
+    <fieldset>
+        <legend>Campos de Senha</legend>
+        <!-- Passoword -->
+         <label for="senha">Passoword: </label>
+         <input type="password" id="senha" name="senha">
+    </fieldset>
+
+    <fieldset>
+        <!-- Inserindo Email -->
+        <legend>E-mail:</legend>
+        <label for="mail">E-mail: </label>
+        <input type="email" id="mail" name="mail">
+    </fieldset>
+
+
+    <fieldset>
+        <!-- Inserindo URL -->
+        <legend>Campo Url: </legend>
+        <label for="urls">URLS: </label>
+        <input type="url" id="urls" name="urls">
+    </fieldset>
+
+
+    <fieldset>
+        <!-- Inserindo o campo Busca -->
+        <legend>Campo de Search: </legend>
+        <label for="busca">Pesquisa: </label>
+        <input type="search" id="busca" name="busca">
+    </fieldset>
+
+
+    <fieldset>
+        <!-- Inserindo campo de telefone -->
+        <legend>Campo Telefone: </legend>
+        <label for="Phone">Telefone: </label>
+        <input type="Phone" id="Phone" name="Phone">
+    </fieldset>
+
+    <fieldset>
+        <!-- Campo de cor -->
+         <!-- Abrir uma palheta de cores e captura a cor -->
+        <legend>Campo Url: </legend>
+        <label for="Cores">Cores: </label>
+        <input type="color" id="Cores" name="Cores">
+    </fieldset>
+
+    <fieldset>
+        <!-- Enviando arquivos -->
+        <legend>Arquivos: </legend>
+        <label for="arq">Selecione um Arquivo: </label>
+        <input type="file" id="arq" name="arq">
+    </fieldset>
+
+
+
+
+    </form>
+
+</body>
+</html>
