@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Atributos Importantes</title>
+</head>
+<body>
+    <h1>Forms Atributos Importantes</h1>
+    <!-- Campos de formularios podem receber atributos especiais -->
+    <form id="dados" name="dados" method="post" action="">
+        <fieldset>
+            <legend>Formulário Atributos Importantes</legend>
+            <!-- 
+            Required = Torna o campo Obrigatorio
+            Placeholder = Indica ao usuario como pode preencher o campo
+            Minlenght e MaxLenght = Quantidade minima e Maxima
+            Disabled = Deixar algum elemento desabilitado
+            readonly = Usuario vai apenas ler a informação
+            autofocous = insere o curso dentro de um elemento
+            
+            -->
+            <label for="usuario">Usuario: </label>
+            <input type="text" name="usuario" id="usuario" required placeholder="Ex: User221" minlength="5" maxlength="20" autofocus>
+
+
+
+
+
+        </fieldset>
+
+        <fieldset>
+            <input type="submit" value="Enviar dados" disabled>
+        </fieldset>
+
+    </form>
+</body>
+</html>
