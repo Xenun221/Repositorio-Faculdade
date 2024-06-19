@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag Select/Option</title>
+</head>
+<body>
+    <h1>Tag Select/Option</h1>
+    <form id="dados" name="dados" method="post" action="">
+        <!-- A tag Select cria um campo de seleção no qual o usuario podera selecionar uma das opções esses campos são tags especificas não usamos input -->
+         <fieldset>
+            <legend>Select: </legend>
+            <label for="atuacao">Área de atuação: </label>
+            <select name="atuacao" id="atuacao">
+                <!-- Opção selecione a sua opção esta ativa precisamos desabilitar e deixa-la invisivel -->
+                <option value="Selecione" disabled selected>Selecione a sua opção</option>
+                <option value="Back">Back-End</option>
+                <option value="Front">Front-End</option>
+                <option value="BD">Banco de dados</option>
+                <option value="Cyber">CyberSegurança</option>
+            </select>
+         </fieldset>
+
+
+         <!-- DataList -->
+         <fieldset>
+            <!-- Data List Cri as opções e busca por uma opção -->
+            <legend>DataLis: </legend>
+            <input list="linguagens" id="lista-linguagens">
+            <datalist id="linguagens">
+                <option value="html">
+                <option value="Java">
+                <option value="Python">
+                <option value="JavaScript">
+            </datalist>
+         </fieldset>
+    </form>
+</body>
+</html>
