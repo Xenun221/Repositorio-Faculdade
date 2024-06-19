@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Campos Radio e CheckBox</title>
+</head>
+<body>
+    <h1>Forms Campos Radio e CheckBox</h1>
+    <!-- 
+    Radio: Insere campos de seleções permitindo ao usuario a escolha de uma unica opção apresenta
+    CheckBox: Insere campos de seleção permitindo ao úsuario a escolha de quantas opções ele quiser. 
+    -->
+    <form id="dados" name="dados" method="post" action="">
+      <fieldset>
+            <!-- Campo de Radio -->
+             <!-- para que isso ocorra no Radio preciso cooloca o mesmo NAME, mas o ID eu não posso repetir. Ao inves de trazer um valor ele tras de volta uma String. No radio ele cria grupos no Checkbox n por isso n usamos o name no checkbox-->
+            <legend>Campo de Radio: </legend>
+            <p>Tipo de Conta: </p>
+            <input type="radio" id="conta1" name="conta" value="Free">
+            <label for="conta1">Conta Free</label>
+            <input type="radio" id="conta2" name="conta" value="Básica">
+            <label for="conta2">Conta Básica</label>
+            <input type="radio" id="conta3" name="conta" value="Plus">
+            <label for="conta3">Conta Plus</label>
+            <input type="radio" id="conta4" name="conta" value="Premium">
+            <label for="conta4">Conta Premium</label>
+        </fieldset>
+
+
+        <fieldset>
+            <!-- CheckBox -->
+            <legend>CheckBox: </legend>
+            <p>Preferencias: </p>
+            <input type="checkbox" id="preferencia1" name="Java" value="1">
+            <label for="preferencia1">Java</label>
+            <input type="checkbox" id="preferencia2" name="Back-End" value="2">
+            <label for="preferencia2">Back-end</label>
+            <input type="checkbox" id="preferencia3" name="Banco de dados" value="3">
+            <label for="preferencia3">Banco de Dados</label>
+        </fieldset>
+    </form>
+</body>
+</html> name="Java"
