@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Campos para datas</title>
+</head>
+<body>
+    <h1>Forms Campos para Datas</h1>
+    <!-- Componentes de formularios para hora e datas -->
+     <form id="dados" name="dados" method="post" action="">
+    <fieldset>
+        <!-- Usando o DATE -->
+        <legend>Data: </legend>
+        <label for="data">Campo de Data:</label>
+        <input type="date" id="data" name="data">
+    </fieldset>
+
+    <fieldset>
+        <!-- Campo de Hora -->
+        <legend>Hora: </legend>
+        <label for="horas">Selecione as Horas: </label>
+        <input type="time" id="horas" name="horas">
+    </fieldset>
+
+    <!-- Podemos juntar os dois Hora e Data -->
+    <fieldset>
+        <!-- Seleciona data e hora-->
+        <legend>Data e Hora: </legend>
+        <label for="dataHora">Selecione Data e Hora: </label>
+        <input type="datetime-local" id="dataHora" name="dataHora">
+    </fieldset>
+    
+    <fieldset>
+        <!-- Retorna em que dia da semana estamos -->
+        <legend>Campo Semana: </legend>
+        <label for="sema">Campo de Semana: </label>
+        <input type="week" id="sema" name="sema">
+    </fieldset>
+
+    <fieldset>
+        <!-- Campo de Mes e Ano que estamos -->
+        <legend>Mês: </legend>
+        <label for="mes">Campo de Mês:</label>
+        <input type="month" id="mes" name="mes">
+    </fieldset>
+
+
+
+
+    </form>
+
+</body>
+</html>
