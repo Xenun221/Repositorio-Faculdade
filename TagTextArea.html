@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag TextÁrea</title>
+</head>
+<body>
+    <h1>Tag Text Área</h1>
+    <!-- Insere cammpo de texto de Multiplas linhas
+        ROW E COLS = PARA TER UM TAMANHO DE CAMPO PRE ESTABELECIDOS, quantidade de linhas que vc consegue ver na mesma linha e cows o tamanho de coluna que vc usa. Vamos tirar isso do nosso código pois com a CSS nós vamos fazer isso.
+            Para não redimencionar nosso textarea vamos colocar a proprieade resize: none;
+    -->
+    <form id="dados" name="dados" method="post" action="">
+
+        <fieldset>
+            <legend>Campo TextArea </legend>
+            <label for="mensagem">Mensagem: </label><br>
+            <textarea name="mensagem" id="mensagem">
+                
+            </textarea>
+        </fieldset>
+
+        <!-- Inserindo Botões -->
+         <fieldset>
+            <!-- Vamos colocar o valor VALUE para colocar o nome do botão. Preciso de uma action para o botão de submition funcione
+            <legend>Botões- Input </legend>
+            <!-- Enviar -->
+            <input type="submit" value="Mandar">
+            <!-- Limpar dados-->
+            <input type="reset" value="Limpar dados">
+            <!-- Chamar JavaScript -->
+            <input type="button" value="Chama JavaScript">
+     
+            <!-- Utilizando a TAG Button -->
+           <button type="submit">Criar conta</button>
+           <button type="reset">Limpar dados</button>
+           <button type="button">Chama JS</button>
+         </fieldset>
+    </form>
+</body>
+</html>
