@@ -1,0 +1,10 @@
+h1{
+    /* Declarando  a cor com o Bs */
+    color: var(--bs-teal);
+}
+
+.my-color{
+    /* Declarando BS com o Class */
+    color: var(--bs-info);
+    background-color: var(--bs-red);
+}
